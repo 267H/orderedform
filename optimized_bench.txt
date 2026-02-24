@@ -1,0 +1,72 @@
+goos: windows
+goarch: amd64
+pkg: github.com/267H/orderedform
+cpu: AMD Ryzen 9 9950X3D 16-Core Processor          
+BenchmarkSet_Plain_10-32             	12632083	        93.91 ns/op	     344 B/op	       2 allocs/op
+BenchmarkSet_Plain_10-32             	12665067	        91.26 ns/op	     344 B/op	       2 allocs/op
+BenchmarkSet_Plain_10-32             	13424740	        92.03 ns/op	     344 B/op	       2 allocs/op
+BenchmarkSet_Plain_10-32             	12760743	        92.76 ns/op	     344 B/op	       2 allocs/op
+BenchmarkSet_Plain_10-32             	12405498	        96.13 ns/op	     344 B/op	       2 allocs/op
+BenchmarkSet_Plain_10-32             	13450652	        95.89 ns/op	     344 B/op	       2 allocs/op
+BenchmarkSet_Special_10-32           	11078245	        98.47 ns/op	     344 B/op	       2 allocs/op
+BenchmarkSet_Special_10-32           	12283364	        96.32 ns/op	     344 B/op	       2 allocs/op
+BenchmarkSet_Special_10-32           	11506508	        97.01 ns/op	     344 B/op	       2 allocs/op
+BenchmarkSet_Special_10-32           	13302427	        99.81 ns/op	     344 B/op	       2 allocs/op
+BenchmarkSet_Special_10-32           	 9407713	       108.2 ns/op	     344 B/op	       2 allocs/op
+BenchmarkSet_Special_10-32           	11463091	       102.1 ns/op	     344 B/op	       2 allocs/op
+BenchmarkURLEncode_Plain_3-32        	40278592	        31.12 ns/op	      48 B/op	       1 allocs/op
+BenchmarkURLEncode_Plain_3-32        	39783709	        31.61 ns/op	      48 B/op	       1 allocs/op
+BenchmarkURLEncode_Plain_3-32        	38963821	        31.41 ns/op	      48 B/op	       1 allocs/op
+BenchmarkURLEncode_Plain_3-32        	39963632	        31.33 ns/op	      48 B/op	       1 allocs/op
+BenchmarkURLEncode_Plain_3-32        	39286426	        31.77 ns/op	      48 B/op	       1 allocs/op
+BenchmarkURLEncode_Plain_3-32        	39305858	        31.89 ns/op	      48 B/op	       1 allocs/op
+BenchmarkURLEncode_Plain_10-32       	13950957	        82.53 ns/op	     128 B/op	       1 allocs/op
+BenchmarkURLEncode_Plain_10-32       	14575346	        82.65 ns/op	     128 B/op	       1 allocs/op
+BenchmarkURLEncode_Plain_10-32       	14971273	        82.04 ns/op	     128 B/op	       1 allocs/op
+BenchmarkURLEncode_Plain_10-32       	15038384	        81.94 ns/op	     128 B/op	       1 allocs/op
+BenchmarkURLEncode_Plain_10-32       	13950811	        83.03 ns/op	     128 B/op	       1 allocs/op
+BenchmarkURLEncode_Plain_10-32       	14803647	        84.55 ns/op	     128 B/op	       1 allocs/op
+BenchmarkURLEncode_Plain_100-32      	 1389722	       873.1 ns/op	    1408 B/op	       1 allocs/op
+BenchmarkURLEncode_Plain_100-32      	 1367667	       878.8 ns/op	    1408 B/op	       1 allocs/op
+BenchmarkURLEncode_Plain_100-32      	 1391882	       866.2 ns/op	    1408 B/op	       1 allocs/op
+BenchmarkURLEncode_Plain_100-32      	 1390038	       861.4 ns/op	    1408 B/op	       1 allocs/op
+BenchmarkURLEncode_Plain_100-32      	 1373637	       873.0 ns/op	    1408 B/op	       1 allocs/op
+BenchmarkURLEncode_Plain_100-32      	 1365208	       877.7 ns/op	    1408 B/op	       1 allocs/op
+BenchmarkURLEncode_Special_3-32      	21037498	        59.31 ns/op	      96 B/op	       1 allocs/op
+BenchmarkURLEncode_Special_3-32      	18257169	        59.93 ns/op	      96 B/op	       1 allocs/op
+BenchmarkURLEncode_Special_3-32      	19401652	        60.61 ns/op	      96 B/op	       1 allocs/op
+BenchmarkURLEncode_Special_3-32      	20973447	        59.03 ns/op	      96 B/op	       1 allocs/op
+BenchmarkURLEncode_Special_3-32      	18648046	        59.42 ns/op	      96 B/op	       1 allocs/op
+BenchmarkURLEncode_Special_3-32      	20668914	        59.78 ns/op	      96 B/op	       1 allocs/op
+BenchmarkURLEncode_Special_10-32     	 6303421	       194.2 ns/op	     320 B/op	       1 allocs/op
+BenchmarkURLEncode_Special_10-32     	 6110016	       195.8 ns/op	     320 B/op	       1 allocs/op
+BenchmarkURLEncode_Special_10-32     	 6325426	       196.0 ns/op	     320 B/op	       1 allocs/op
+BenchmarkURLEncode_Special_10-32     	 5891894	       194.9 ns/op	     320 B/op	       1 allocs/op
+BenchmarkURLEncode_Special_10-32     	 6114178	       198.2 ns/op	     320 B/op	       1 allocs/op
+BenchmarkURLEncode_Special_10-32     	 6304153	       194.8 ns/op	     320 B/op	       1 allocs/op
+BenchmarkURLEncode_Special_100-32    	 1378632	       870.4 ns/op	    1408 B/op	       1 allocs/op
+BenchmarkURLEncode_Special_100-32    	 1386484	       863.6 ns/op	    1408 B/op	       1 allocs/op
+BenchmarkURLEncode_Special_100-32    	 1363184	       877.2 ns/op	    1408 B/op	       1 allocs/op
+BenchmarkURLEncode_Special_100-32    	 1387736	       869.7 ns/op	    1408 B/op	       1 allocs/op
+BenchmarkURLEncode_Special_100-32    	 1392009	       864.5 ns/op	    1408 B/op	       1 allocs/op
+BenchmarkURLEncode_Special_100-32    	 1376588	       871.7 ns/op	    1408 B/op	       1 allocs/op
+BenchmarkEndToEnd_Plain_6-32         	 8591458	       139.2 ns/op	     312 B/op	       3 allocs/op
+BenchmarkEndToEnd_Plain_6-32         	 8927076	       138.8 ns/op	     312 B/op	       3 allocs/op
+BenchmarkEndToEnd_Plain_6-32         	 9060213	       133.1 ns/op	     312 B/op	       3 allocs/op
+BenchmarkEndToEnd_Plain_6-32         	 9177664	       133.0 ns/op	     312 B/op	       3 allocs/op
+BenchmarkEndToEnd_Plain_6-32         	 9218996	       134.5 ns/op	     312 B/op	       3 allocs/op
+BenchmarkEndToEnd_Plain_6-32         	 9394118	       135.1 ns/op	     312 B/op	       3 allocs/op
+BenchmarkEndToEnd_Special_6-32       	 6515913	       183.2 ns/op	     392 B/op	       3 allocs/op
+BenchmarkEndToEnd_Special_6-32       	 6588927	       184.0 ns/op	     392 B/op	       3 allocs/op
+BenchmarkEndToEnd_Special_6-32       	 6543852	       184.2 ns/op	     392 B/op	       3 allocs/op
+BenchmarkEndToEnd_Special_6-32       	 6414531	       181.8 ns/op	     392 B/op	       3 allocs/op
+BenchmarkEndToEnd_Special_6-32       	 6509169	       184.0 ns/op	     392 B/op	       3 allocs/op
+BenchmarkEndToEnd_Special_6-32       	 6566756	       180.1 ns/op	     392 B/op	       3 allocs/op
+BenchmarkEndToEnd_100-32             	  133664	      8585 ns/op	    8116 B/op	     203 allocs/op
+BenchmarkEndToEnd_100-32             	  137833	      8603 ns/op	    8116 B/op	     203 allocs/op
+BenchmarkEndToEnd_100-32             	  142983	      8558 ns/op	    8116 B/op	     203 allocs/op
+BenchmarkEndToEnd_100-32             	  144150	      8750 ns/op	    8116 B/op	     203 allocs/op
+BenchmarkEndToEnd_100-32             	  137542	      8645 ns/op	    8116 B/op	     203 allocs/op
+BenchmarkEndToEnd_100-32             	  137665	      8612 ns/op	    8116 B/op	     203 allocs/op
+PASS
+ok  	github.com/267H/orderedform	79.396s
